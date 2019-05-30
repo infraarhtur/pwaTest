@@ -1,0 +1,63 @@
+{
+    "name":"practica1 pwa",
+    "short_name":"pwa",
+    "description":"aplicacion pwa",
+    "background-color":"#FFFF",
+    "theme_color":"#fd7e14",
+    "orientation":"portrait",
+    "display":"standalone",
+    "start_url":"./index.html?utm_source=web_app_manifest",
+    "scope":"./",
+    "lang":"es-CO",
+    "icons":
+    [
+        {
+        
+        "src":"./images/r2-d2.png",
+        "sizes":"128x128",
+        "type":"image/png"
+        
+    },{
+        
+        "src":"./images/r2-d21024x1024.png",
+        "sizes":"1024x1024",
+        "type":"image/png"
+        
+    },
+    {
+        
+        "src":"./images/r2-d2512x512.png",
+        "sizes":"512x512",
+        "type":"image/png"
+        
+    }
+    ,
+    {        
+        "src":"./images/r2-d2512x512.png",
+        "sizes":"384x384",
+        "type":"image/png"
+        
+    }
+    ,
+    {        
+        "src":"./images/r2-d2256x256.png",
+        "sizes":"256x256",
+        "type":"image/png"
+        
+    }  ,
+    {        
+        "src":"./images/r2-d264x64.png",
+        "sizes":"64x64",
+        "type":"image/png"
+        
+    }
+    ,
+    {        
+        "src":"./images/r2-d232x32.png",
+        "sizes":"32x32",
+        "type":"image/png"
+        
+    }
+]
+
+}
