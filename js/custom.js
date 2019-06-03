@@ -4,8 +4,9 @@ if('serviceWorker' in navigator){
     console.log('si se puede jum hay vamos');
 
 
-    navigator.serviceWorker.register('./sw.js')
-    .then(res => console.log('ServiceWorker registration successful with scope',res)) .catch(err => console.log('paila el registro del sw:', err))
+    navigator.serviceWorker.register('js/sw.js')
+    .then(res => console.log('ServiceWorker registration successful with scope',res)) 
+    .catch(err => console.log('paila el registro del sw:', err));
 }else{
     console.log('no se puede');
 
